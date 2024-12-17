@@ -1,0 +1,115 @@
+body{
+  text-align: center;
+  margin: 0;
+}
+.top-container{
+  background-color: #C6E7FF;
+}
+h1{
+  font-family: "Satisfy", cursive;
+  font-size: 5rem;
+  color: #7E5CAD;
+}
+h2{
+  font-family: "Parkinsans", sans-serif;
+  font-size: 2.5rem;
+  color: #7E5CAD;
+}
+.middle-container{
+  margin: 100px;
+}
+.profile-pic{
+  border-radius: 50%;
+  object-fit: cover;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+p{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(67, 67, 67);
+}
+hr{
+  border: dotted 6px;
+  color: #C6E7FF;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.skill{
+  float: left;
+}
+.developer{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+.skill-title{
+  display: flex;
+  flex-direction: column;
+}
+.skill-title>h3{
+  margin: 0;
+}
+h3{
+  font-family: "Parkinsans", sans-serif;
+  color: #7E5CAD;
+}
+.contact-message{
+  width: 30%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.btn{
+  background-color: #72BAA9;
+  background-image: linear-gradient(top, #C6E7FF, #72BAA9);
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Parkinsans";
+}
+.btn:hover{
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+a{
+  margin: 10px 20px;
+  text-decoration: none;
+  font-family: "parkinsans";
+}
+.bottom-container{
+  background-color: #C6E7FF;
+  margin-top: 100px;
+  padding: 20px;
+}
+.copyrights{
+  font-size: 15px;
+}
+
+@media (max-width: 800px) {
+  .contact-message{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .developer{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    row-gap: 2rem;
+  }
+  .intro{
+    width: 100%;
+    margin: auto;
+  }
+}
